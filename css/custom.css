@@ -50,3 +50,22 @@
  
     
 }
+.form-control, .btn {
+    
+    font-size: 1.5rem !important;
+    font-family: 'Philosopher';
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: calc(3.25rem + 2px);
+    font-family: 'Philosopher';
+}
+
+.lbl-before-textbox{
+    font-size: 1.5rem;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #495057;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
