@@ -21,9 +21,33 @@ body {
     padding: 10px;
 }
 
+.nav-item > a{
+  background-color: #ffffff;
+    color: #3E4551; 
+}
+
+.nav-link .active{
+  background-color: #ff4444;
+    color: #ffffff; 
+}
+
 .h5back{
     
     color: #3E4551;
+}
+
+.breadcrumb{
+  background-color: #ff4444;
+  color: #ffffff; 
+}
+
+.breadcrumb >.active  {
+   color: #ffffff; 
+   
+}
+
+.breadcrumb > .breadcrumb-item a {
+  color: #ffffff; 
 }
 
 
