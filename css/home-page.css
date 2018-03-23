@@ -21,15 +21,7 @@ body {
     padding: 10px;
 }
 
-.nav-item > a{
-  background-color: #ffffff;
-    color: #3E4551; 
-}
 
-.nav-link .active{
-  background-color: #ff4444;
-    color: #ffffff; 
-}
 
 .h5back{
     
@@ -53,6 +45,23 @@ body {
 
 .portfolio-item {
   margin-bottom: 30px;
+}
+
+
+.nav-pills>li>a.active.nav-link,
+.nav-pills>li>a.active:focus,
+.nav-pills>li>a.active:hover {
+   background-color: #ff4444;
+}
+
+.nav-pills>li>a,
+.nav-pills>li>a:focus,
+.nav-pills>li>a:hover {
+   color: #3E4551;
+}
+
+button.btn.btn-link{
+  color: #3E4551;
 }
 
 /*
