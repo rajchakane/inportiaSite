@@ -1,0 +1,9 @@
+RewriteEngine On
+
+RewriteRule ^home?$ index.php
+
+RewriteRule ^register?$ register.php
+
+RewriteRule ^contact?$ contact.php
+
+RewriteRule ^seleniumCourse?$ selenium-pimple-saudagar-courses.php
